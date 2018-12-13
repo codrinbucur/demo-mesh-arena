@@ -18,6 +18,7 @@ spec:
         prometheus.io/scheme: "http"
         prometheus.io/port: "9090"
         kiali.io/dashboards: vertx
+        sidecar.istio.io/inject: "true"
       labels:
         app: ui
         version: v1
